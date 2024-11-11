@@ -1,0 +1,85 @@
+/* Seletor universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Seletores por tag */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cce0fd;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    color: #264653;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #264653;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+/* Seletor por classe */
+.material-symbols-outlined {
+    vertical-align: middle;
+    margin-right: 5px;
+    color: #e76f51;
+}
+
+/* Seletor por ID */
+#footer {
+    font-size: 14px;
+    color: #6c757d;
+    margin-top: 40px;
+}
+
+/* Seletor por atributo */
+a:hover {
+    color: #e63946;
+    text-decoration: underline;
+}
+
+/* Seletor de pseudo-classe */
+ul li:hover {
+    background-color: #fcfcfc;
+    transition: background-color 0.3s ease;
+}
+
+/* Decorações de texto */
+p {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+ol li {
+    font-weight: bold;
+}
+
+/* Links */
+nav ul li a {
+    text-decoration: underline;
+    color: #0077b6;
+}
+
+nav ul li a:hover {
+    color: #00b4d8;
+}
+
+/* Estilos adicionais */
+img {
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+dl dd {
+    margin-left: 20px;
+    font-style: oblique;
+}
